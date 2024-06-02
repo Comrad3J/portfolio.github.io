@@ -1,0 +1,79 @@
+{
+    "projects": [
+        {
+            "id": "project6",
+            "name": "3d-renders",
+            "date": "2024-05-31",
+            "short_description": "3D renders of various objects and scenes made in Blender.",
+            "description": "To be added",
+            "type": "visual"
+        },
+        {
+            "id": "project7",
+            "name": "MIDI-ctrl",
+            "date": "2021-04-01",
+            "description": "The MIDI controller with the Arduino platform includes 12 arcade buttons, 4 rotary potentiometers, and 2 slider potentiometers, providing the performer with various methods to control their music. The controller is built from simple and inexpensive parts and is open-source in both its code and circuitry.",
+            "short_description": "A custome MIDI controller built with an Arduino Leonardo.",
+            "type": "multimedia",
+            "media": [
+                "assets/midi-ctrl/midi-ctrl.jpg"
+            ],
+            "files": [
+                "assets/midi-ctrl/Dizajn.stl"
+            ]
+        },
+        {
+            "id": "project8",
+            "name": "The Sunbreaks",
+            "date": "2024-05-25",
+            "short_description": "Debut album of alt-indie project sunbreaks.",
+            "description": "The album 'The Sunbreaks' is a debut album of the band The Sunbreaks. The album was released on the 25th of May 2024. The album was recorded by the band members themselves, with the help of Jaša Potočnik (vocals, guitar, composition), Mitja Hafner (bass) and Luka Hren (drums). I played synthesizer and helped with production for some of the tracks. I also did some hype material, like teaser shown.",
+            "type": "sound",
+            "links": [
+                "https://thesunbreaks.bandcamp.com/album/the-sunbreaks",
+                "https://open.spotify.com/album/7zZgeQJnmAFclOdmQC47Iy?si=adc0f24cc13a40bb"
+            ],
+            "coproduction": [
+                "Jaša Potočnik",
+                "Mitja Hafner",
+                "Luka Hren"
+            ],
+            "media": [
+                "assets/sunbreaks/sunbreaks.jpg",
+                "assets/sunbreaks/sunbreaks2.jpg",
+                "assets/sunbreaks/sunbreaks_video.mp4"
+
+            ]
+        },
+        {
+            "id": "project9",
+            "name": "Spark",
+            "date": "2024-05-24",
+            "short_description": "Interactive light project in a public street lamp. Created for the Svetlobna Gverila light festival.",
+            "description": "One of the streetlights, transformed by me and Matjaž Pogačnik, presents an installation titled -Spark-. This installation uses the concept of a spark as a metaphor for igniting the life cycle of fire and the transformations it brings. Our dynamic light setup within the streetlight generates not only illumination but also intricate shadows and images that evoke the genesis and evolution of fire. This interplay of light and shadow creates an immersive sensory experience, turning the ordinary streetlight into a canvas of continuous transformation. Our -Spark- installation will be displayed both in the city center and later in Tivoli Park during the Spider Performing Arts Festival, adding a unique artistic dimension to the public space.,",
+            "type": "multimedia",
+            "coproduction": [
+                "Matjaž Pogačnik"
+            ],
+            "exhibition": [
+                "Trg Francoske revolucije: till 17. 6. 2024",
+                "Park Tivoli (at Plečnik ampfitheater): 19. 6.–22. 6."
+            ],
+            "media": [
+                "assets/spark/spark.jpg",
+                "assets/spark/spark_video2.mp4",
+                "assets/spark/spark2.jpg",
+                "assets/spark/spark_video1.mp4",
+                "assets/spark/spark3.jpg"
+            ]
+        },
+        {
+            "id": "project10",
+            "name": "SoundCloud",
+            "date": "",
+            "short_description": "Refer to my soundcloud for sonical scraps.",
+            "type": "sound",
+            "links": "https://soundcloud.com/jakob-lavri"
+        }
+    ]
+  }

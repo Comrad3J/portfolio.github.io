@@ -1,0 +1,183 @@
+
+
+canvas {
+  display: block;
+}
+
+/* Default light mode styles */
+body {
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  font-family: Consolas, monospace; /* Consolas font with fallback to generic monospace font */
+}
+
+/* Dark mode styles */
+.dark-mode {
+  -webkit-filter: invert(100%); /* Invert colors for WebKit browsers */
+  filter: invert(100%); /* Invert colors for other browsers */
+}
+
+#dark-mode-toggle {
+  position:fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.invert {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  left: 0;
+  mix-blend-mode: difference;
+}
+
+#navbar {
+  background-color: rgba(244, 244, 244, 0.3);
+  padding: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 1);
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-btn {
+  position:fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 20px 0;
+}
+
+nav ul li a {
+  text-align: left !important;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: block;
+  text-align: center; /* Center the text within each link */
+  padding: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+}
+
+nav ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+
+#container {
+  margin-left: 250px; /* Adjust this based on the width of the navbar */
+  padding: 20px;
+  position: relative;
+}
+
+.navbar-text {
+  margin-bottom: 30px;
+  font-size: 20px; /* Increase font size */
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+#social-links {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%; /* Occupy full width */
+  background-color: rgba(255, 255, 255, 0.9); /* Background color */
+  display: flex; /* Use flexbox to arrange items */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+#social-links a,
+#social-links span {
+  color: #000; /* Link color */
+  text-decoration: none; /* Remove underline */
+  padding: 5px; /* Add padding between links */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+#social-links a:hover {
+  background: #000;
+  color: #fff;
+}
+
+#project-titles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+
+  margin-left: 280px; /* Adjust this value to the width of your navbar */
+  margin-right: 40px;
+  padding-top: 60px;
+}
+
+#project-titles a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  #project-titles {
+    grid-template-columns: 1fr;
+    padding: 50px;
+    margin: 0;
+  }
+  
+}
+
+.hidden {
+  display: none;
+}
+
+/* Just fucked shit up with this css to make everything appear randomly*/
+
+
+.project {
+  display: flex !important;
+  flex-direction: row;
+  align-items: flex-start !important;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+
+.responsive-media {
+  max-width: 450px !important; /* Set width to 100% to ensure it fits within its container */
+  height: auto;
+  padding: 10px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+  .responsive-media {
+    width: 79%; /* Set width to 45% to ensure two images fit in a row */
+    margin: 2.5%; /* Add a small margin to separate the images */
+  }
+}
+
