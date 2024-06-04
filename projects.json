@@ -1,12 +1,28 @@
 {
     "projects": [
         {
+            "id": "project10",
+            "name": "SoundCloud",
+            "date": "",
+            "short_description": "Refer to my soundcloud for sonical scraps.",
+            "type": "sound",
+            "links": "https://soundcloud.com/jakob-lavri"
+        },
+        {
             "id": "project6",
             "name": "3d-renders",
             "date": "2024-05-31",
             "short_description": "3D renders of various objects and scenes made in Blender.",
-            "description": "To be added",
-            "type": "visual"
+            "description": "",
+            "type": "visual",
+            "media": [
+                "assets/renders/render00.png",
+                "assets/renders/render01.png",
+                "assets/renders/render02.png",
+                "assets/renders/render02.mp4",
+                "assets/renders/render03.png",
+                "assets/renders/render04.png"
+            ]
         },
         {
             "id": "project7",
@@ -16,10 +32,11 @@
             "short_description": "A custome MIDI controller built with an Arduino Leonardo.",
             "type": "multimedia",
             "media": [
-                "assets/midi-ctrl/midi-ctrl.jpg"
+                "assets/midi-ctrl/midi-ctrl.jpg",
+                "assets/midi-ctrl/midi-ctrl2.jpg"
             ],
             "files": [
-                "assets/midi-ctrl/Dizajn.stl"
+                "assets/midi-ctrl/3d_enclosure.stl"
             ]
         },
         {
@@ -66,14 +83,6 @@
                 "assets/spark/spark_video1.mp4",
                 "assets/spark/spark3.jpg"
             ]
-        },
-        {
-            "id": "project10",
-            "name": "SoundCloud",
-            "date": "",
-            "short_description": "Refer to my soundcloud for sonical scraps.",
-            "type": "sound",
-            "links": "https://soundcloud.com/jakob-lavri"
         }
     ]
   }
