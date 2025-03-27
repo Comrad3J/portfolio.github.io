@@ -1,5 +1,3 @@
-
-
 canvas {
   display: block;
 }
@@ -11,7 +9,7 @@ body {
   font-family: Consolas, monospace; /* Consolas font with fallback to generic monospace font */
 }
 
-/* Dark mode styles */
+/* Dark mode styles - not being implemented at the moment */
 .dark-mode {
   -webkit-filter: invert(100%); /* Invert colors for WebKit browsers */
   filter: invert(100%); /* Invert colors for other browsers */

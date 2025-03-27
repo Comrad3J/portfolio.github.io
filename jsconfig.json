@@ -1,10 +1,8 @@
 {
-  "compilerOptions": {
-    "target": "es6"
-  },
   "include": [
     "*.js",
     "**/*.js",
-    "libraries/p5types/global.d.ts"
+    "libraries/p5types/global.d.ts",
+    "index.js" // Add the missing file here
   ]
 }
