@@ -16,12 +16,10 @@
             "description": "",
             "type": "visual",
             "media": [
-                "assets/renders/render00.png",
                 "assets/renders/render01.png",
                 "assets/renders/render02.png",
                 "assets/renders/render02.mp4",
-                "assets/renders/render03.png",
-                "assets/renders/render04.png"
+                "assets/renders/render03.png"
             ]
         },
         {
@@ -83,6 +81,26 @@
                 "assets/spark/spark_video1.mp4",
                 "assets/spark/spark3.jpg"
             ]
-        }
+        },
+        {
+            "id": "project11",
+            "name": "Pulsing Ambience",
+            "date": "2025-03-27",
+            "short_description": "Multichannel work for the TU-Studio in Berlin.",
+            "description": "This track was created during my time at the course 'Space, Environment, and Context: On Listening' at UDK Berlin. It was developed as part of a series of multichannel works for the TU-Studio in Berlin, where it was played in a 22-speaker dome. The recording process involved capturing natural sound environments using a variety of microphones, which were then digitally processed and spatially arranged. I focused on examining the relationship between natural acoustic environments and their electronic reimagination. Binauralized version availiable via the link.",
+            "type": "sound",
+            "links": [
+                "https://s4ntp.org/SEC/WS2024-2025/sec-on-listening.html"
+            ],
+            "coproduction": [
+                "Anne Wellmer (mentor)"
+            ],
+            "media": [
+                "assets/ambience/ambience1.jpg",
+                "assets/ambience/ambience2.jpg",
+                "assets/ambience/ambience3.jpg",
+                "assets/ambience/ambience4.jpg"
+            ]
+        }   
     ]
   }

@@ -3,6 +3,6 @@
     "*.js",
     "**/*.js",
     "libraries/p5types/global.d.ts",
-    "index.js" // Add the missing file here
+    "index.js" 
   ]
 }
