@@ -171,6 +171,14 @@ nav ul li a:hover {
   padding: 10px;
 }
 
+body {
+  cursor: default; /* Keeps the normal cursor */
+}
+
+a, button, .hover-effect {
+  cursor: url('assets/favicon/pinky.cur'), pointer; /* Uses the pinky finger cursor */
+}
+
 /* Media query for small screens */
 @media screen and (max-width: 600px) {
   .responsive-media {
